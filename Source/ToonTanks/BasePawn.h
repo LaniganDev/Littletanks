@@ -15,6 +15,7 @@ public:
 	// Sets default values for this pawn's properties
 	ABasePawn();
 
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
@@ -28,16 +29,16 @@ public:
 
 private:
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere,BlueprintReadonly, Category = "Components", Meta = (AllowPrivateAccess = "true"))
 	class UCapsuleComponent* CapsuleComp;
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere,BlueprintReadonly, Category = "Components", Meta = (AllowPrivateAccess = "true"))
 	UStaticMeshComponent* BaseMesh;
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere,BlueprintReadonly, Category = "Components", Meta = (AllowPrivateAccess = "true"))
 	UStaticMeshComponent* TurretMesh;
 
-	UPROPERTY()
+	UPROPERTY(VisibleAnywhere,BlueprintReadonly, Category = "Components", Meta = (AllowPrivateAccess = "true"))
 	USceneComponent* ProjectileSpawnPoint;
 
 };
