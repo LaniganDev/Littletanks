@@ -17,16 +17,21 @@ class TOONTANKS_API ATower : public ABasePawn
 public:
 
 	virtual void Tick(float DeltaTime) override;
-	
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
 private:
 
-	UPROPERTY(EditAnywhere, Category = "Parameters")
-	float FireRange = 200.f;
-
 	class ATank* Tank;
 
+	UPROPERTY(EditDefaultsOnly, Category = "Combat")
+	float FireRange = 300.f;
+
+	FTimerHandle FireRateTimerHandle;
+	float FireRate = 2.f;
+	void CheckFireCondition();
+
+	bool InFireRange();
 };
