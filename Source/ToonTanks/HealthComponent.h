@@ -16,6 +16,7 @@ public:
 	// Sets default values for this component's properties
 	UHealthComponent();
 
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -31,5 +32,7 @@ private:
 
 	UFUNCTION()
 	void DamageTaken(AActor* DamagedActor, float Damage, const UDamageType* DamageType, class AController* Instigator, AActor* DamageCauser);
+
+	class ALittleTanksGameMode* LittleTanksGameMode;
 		
 };
