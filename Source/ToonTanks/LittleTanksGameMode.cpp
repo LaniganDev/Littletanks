@@ -28,7 +28,32 @@ void ALittleTanksGameMode::ActorDied(AActor* DeadActor)
 void ALittleTanksGameMode::BeginPlay()
 {
     Super::BeginPlay();
+    HandleGameStart();
 
+
+}
+
+void ALittleTanksGameMode::HandleGameStart()
+{
     Tank = Cast<ATank>(UGameplayStatics:: GetPlayerPawn(this,0));
     LittleTanksPlayerController = Cast<ALittleTanksPlayerController>(UGameplayStatics::GetPlayerController(this,0));
+
+    StartGame();
+
+    if(LittleTanksPlayerController)
+    {
+        LittleTanksPlayerController->SetPlayerEnabledState(false);
+
+        //Creates & Handles GameTimer
+        FTimerHandle PlayerEnableTimerHandle;
+        FTimerDelegate PlayerEnableTimerDelegate = FTimerDelegate::CreateUObject(
+            LittleTanksPlayerController,
+            &ALittleTanksPlayerController::SetPlayerEnabledState,
+            true);
+        GetWorldTimerManager().SetTimer(
+            PlayerEnableTimerHandle,
+            PlayerEnableTimerDelegate,
+            StartDelay,
+            false);
+    }
 }
