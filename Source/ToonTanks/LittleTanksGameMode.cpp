@@ -16,11 +16,17 @@ void ALittleTanksGameMode::ActorDied(AActor* DeadActor)
         {
             LittleTanksPlayerController->SetPlayerEnabledState(false);
         }
+        GameOver(false);
         
     }
     else if (ATower* DestroyedTower = Cast<ATower>(DeadActor))
     {
         DestroyedTower->HandleDestruction();
+        TargetTowers--;
+        if (TargetTowers == 0)
+        {
+            GameOver(true);
+        }
     }
     
 }
@@ -35,6 +41,7 @@ void ALittleTanksGameMode::BeginPlay()
 
 void ALittleTanksGameMode::HandleGameStart()
 {
+    TargetTowers = GetTargetTowerCount();
     Tank = Cast<ATank>(UGameplayStatics:: GetPlayerPawn(this,0));
     LittleTanksPlayerController = Cast<ALittleTanksPlayerController>(UGameplayStatics::GetPlayerController(this,0));
 
@@ -56,4 +63,12 @@ void ALittleTanksGameMode::HandleGameStart()
             StartDelay,
             false);
     }
+}
+
+int32 ALittleTanksGameMode::GetTargetTowerCount()
+{
+    TArray<AActor*> Towers;
+    UGameplayStatics::GetAllActorsOfClass(this, ATower::StaticClass(), Towers);
+    return Towers.Num();
+
 }
