@@ -5,6 +5,7 @@
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
 #include "Kismet/GameplayStatics.h" 
+#include "Mine.h"
 
 // Sets default values
 AProjectile::AProjectile()
@@ -38,16 +39,22 @@ void AProjectile::Tick(float DeltaTime)
 
 void AProjectile::OnHit(UPrimitiveComponent* Hitcomp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit)
 {
-	auto MyOwner = GetOwner();
-	if(MyOwner == nullptr) return;
+	 if (OtherActor && OtherActor != this && OtherComp)
+    {
+        {
+            // Apply damage to the other actor (if it's not the mine)
+            auto MyOwner = GetOwner();
+            if (MyOwner)
+            {
+                auto MyOwnerInstigator = MyOwner->GetInstigatorController();
+                auto DamageTypeClass = UDamageType::StaticClass();
+                UGameplayStatics::ApplyDamage(OtherActor, Damage, MyOwnerInstigator, this, DamageTypeClass);
+            }
+        }
+    }
 
-	auto MyOwnerInstigator = MyOwner->GetInstigatorController();
-	auto DamageTypeClass = UDamageType::StaticClass();
-
-	if(OtherActor && OtherActor != this && OtherActor !=MyOwner)
-	{
-		UGameplayStatics::ApplyDamage(OtherActor,Damage,MyOwnerInstigator,this,DamageTypeClass);
-		Destroy();
-	}
+    // Destroy the projectile regardless of the type of actor it hit
+    Destroy();
 }
+
 

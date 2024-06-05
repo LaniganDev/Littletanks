@@ -6,6 +6,7 @@
 #include "Tank.h"
 #include "Tower.h"
 #include "LittleTanksPlayerController.h"
+#include "Mine.h"
 
 void ALittleTanksGameMode::ActorDied(AActor* DeadActor)
 {
@@ -27,6 +28,11 @@ void ALittleTanksGameMode::ActorDied(AActor* DeadActor)
         {
             GameOver(true);
         }
+    }
+    else if (AMine* DestroyedMine = Cast<AMine>(DeadActor))
+    {
+        DestroyedMine->HandleDestruction();
+        GameOver(false);
     }
     
 }
