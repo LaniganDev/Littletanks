@@ -6,6 +6,7 @@
 #include "Camera/CameraComponent.h"
 #include "Components/InputComponent.h"
 #include "Kismet/GameplayStatics.h"
+#include "HealthComponent.h"
 
 ATank::ATank()
 {
@@ -60,10 +61,21 @@ void ATank::BeginPlay()
 
 void ATank::Move(float Value)
 {
-    FVector DeltaLocation = FVector::ZeroVector;
-    // X = Value * DeltaTime * Speed
-    DeltaLocation.X = Value * Speed * UGameplayStatics::GetWorldDeltaSeconds(this);
-    AddActorLocalOffset(DeltaLocation, true);
+    UHealthComponent* HealthComponent = FindComponentByClass<UHealthComponent>();
+    if(HealthComponent-> GetCurrentHealth() <= 50.f)
+    {
+        FVector DeltaLocation = FVector::ZeroVector;
+        // X = Value * DeltaTime * Speed
+        DeltaLocation.X = Value * DamagedSpeed * UGameplayStatics::GetWorldDeltaSeconds(this);
+        AddActorLocalOffset(DeltaLocation, true);
+    }
+    else
+    {
+        FVector DeltaLocation = FVector::ZeroVector;
+        // X = Value * DeltaTime * Speed
+        DeltaLocation.X = Value * Speed * UGameplayStatics::GetWorldDeltaSeconds(this);
+        AddActorLocalOffset(DeltaLocation, true);
+    }
     
 }
 

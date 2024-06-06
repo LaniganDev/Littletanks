@@ -39,7 +39,7 @@ private:
 	UPROPERTY(EditAnywhere)
 	int32 AmmoPickup = 10;
 
-	UPROPERTY()
+	UPROPERTY(EditAnywhere)
 	float HealthPickup = 10.f;
 	
 
