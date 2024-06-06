@@ -4,6 +4,7 @@
 #include "Pickups.h"
 #include "Components/StaticMeshComponent.h"
 #include "Tank.h"
+#include "HealthComponent.h"
 
 // Sets default values
 APickups::APickups()
@@ -42,11 +43,27 @@ void APickups::OnOverlapBegin(UPrimitiveComponent *OverlappedComp, AActor *Other
 	ATank* Tank = Cast<ATank>(OtherActor);
 	if(Tank)
 	{
-		int32 CurrentAmmo = Tank->GetCurrentAmmo();
-		int32 MaxAmmo = Tank->GetMaxAmmo();
-		int32 NewAmmo = FMath::Clamp(CurrentAmmo+AmmoPickup,0,MaxAmmo);
-		Tank->SetCurrentAmmo(NewAmmo);
-		Destroy();
+		if(ActorHasTag("AmmoPickup"))
+		{
+			int32 CurrentAmmo = Tank->GetCurrentAmmo();
+			int32 MaxAmmo = Tank->GetMaxAmmo();
+			int32 NewAmmo = FMath::Clamp(CurrentAmmo+AmmoPickup,0,MaxAmmo);
+			Tank->SetCurrentAmmo(NewAmmo);
+			Destroy();
+		}
+		if(ActorHasTag("HealthPickup")) 
+		{
+			UHealthComponent* HealthComponent = OtherActor->FindComponentByClass<UHealthComponent>();
+			if(HealthComponent)
+			{
+				float CurrentHealth = HealthComponent->GetCurrentHealth();
+				float MaxHealth = HealthComponent->GetMaxHealth();
+				float NewHealth = FMath::Clamp(CurrentHealth+HealthPickup,0,MaxHealth);
+				HealthComponent->SetNewHealth(NewHealth);
+				Destroy();
+			}
+		}
+
 	}
 	return;
 }

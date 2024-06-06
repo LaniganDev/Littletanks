@@ -84,7 +84,7 @@ void ATank::Fire()
     }
     else
     {
-        // Optionally, you can add logic for when the tank is out of ammo
+        
         UE_LOG(LogTemp, Warning, TEXT("Out of Ammo!"));
     }
 }
