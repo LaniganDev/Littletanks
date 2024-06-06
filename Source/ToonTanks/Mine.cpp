@@ -48,13 +48,12 @@ void AMine::OnOverlapBegin(UPrimitiveComponent *OverlappedComp, AActor *OtherAct
 {
 	if ( OtherActor && OtherActor != this)
     {
-        // Check if the overlapping actor is a projectile
         AProjectile* Projectile = Cast<AProjectile>(OtherActor);
         if (Projectile)
         {
 
             // Apply damage to the mine
-            UHealthComponent* HealthComp = Cast<UHealthComponent>(FindComponentByClass<UHealthComponent>());
+            UHealthComponent* HealthComp = FindComponentByClass<UHealthComponent>();
             if (HealthComp)
             {
                 UGameplayStatics::ApplyDamage(this, Projectile->Damage, nullptr, this, nullptr);
@@ -63,18 +62,14 @@ void AMine::OnOverlapBegin(UPrimitiveComponent *OverlappedComp, AActor *OtherAct
             // Destroy the projectile
             Projectile->Destroy();
         }
-		if (OtherActor && OtherActor != this && !Projectile)
-		{
-			UGameplayStatics::ApplyDamage(OtherActor, DamageAmount, nullptr, this, nullptr);
-			Destroy();
+			//Applies Damage to the actor who goes into the mine
+			if (OtherActor && OtherActor != this && !Projectile)
+			{
+				UGameplayStatics::ApplyDamage(OtherActor, DamageAmount, nullptr, this, nullptr);
+				Destroy();
 
-		}
+			}
 
-        // Debug log
-        if (GEngine)
-        {
-            GEngine->AddOnScreenDebugMessage(-1, 5.f, FColor::Red, FString::Printf(TEXT("Mine Overlapped by: %s"), *OtherActor->GetName()));
-        }
     }
 }
 

@@ -14,6 +14,7 @@ ATank::ATank()
 
     Camera = CreateDefaultSubobject<UCameraComponent>(TEXT("Camera"));
     Camera->SetupAttachment(SpringArm);
+    
 }
 
 void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
@@ -73,4 +74,17 @@ void ATank::Turn(float Value)
     DeltaRotation.Yaw = Value * TurnRate * UGameplayStatics::GetWorldDeltaSeconds(this);
     AddActorLocalRotation(DeltaRotation, true);
     GetController();
+}
+void ATank::Fire()
+{
+    if (GetCurrentAmmo() > 0)
+    {
+        SetCurrentAmmo(GetCurrentAmmo() -1);
+        Super::Fire(); // Call the base class Fire method
+    }
+    else
+    {
+        // Optionally, you can add logic for when the tank is out of ammo
+        UE_LOG(LogTemp, Warning, TEXT("Out of Ammo!"));
+    }
 }

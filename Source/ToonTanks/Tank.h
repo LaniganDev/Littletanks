@@ -30,6 +30,12 @@ public:
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
+	virtual void Fire() override;
+
+public:
+	int32 GetCurrentAmmo() const { return Ammo; }
+	int32 GetMaxAmmo() const { return MaxAmmo; }
+	void SetCurrentAmmo(int32 NewAmmo) { Ammo = FMath::Clamp(NewAmmo, 0, MaxAmmo); }
 
 private:
 	UPROPERTY(VisibleAnywhere, Category = "Components")
@@ -43,6 +49,11 @@ private:
 
 	UPROPERTY(EditAnywhere, Category = "Movement")
 	float TurnRate = 45.f;
+
+	UPROPERTY(EditAnywhere)
+	int32 Ammo = 10;
+	int32 MaxAmmo = 10;
+
 
 	void Move(float Value);
 	void Turn(float Value);
