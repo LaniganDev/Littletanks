@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Field/FieldSystemActor.h"
 #include "Projectile.generated.h"
 
 UCLASS()
@@ -36,5 +37,12 @@ public:
 	virtual void Tick(float DeltaTime) override;
 		UPROPERTY(EditAnywhere)
 	float Damage = 50.f;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Effects")
+	TSubclassOf<AFieldSystemActor> FieldSystemActorToSpawn;
+	
+
+	// Reference to the spawned FieldSystemActor
+	AFieldSystemActor* AttachedFieldSystemActor;
 
 };

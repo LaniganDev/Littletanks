@@ -62,18 +62,18 @@ void ATank::BeginPlay()
 void ATank::Move(float Value)
 {
     UHealthComponent* HealthComponent = FindComponentByClass<UHealthComponent>();
-    if(HealthComponent-> GetCurrentHealth() <= 50.f)
+    if(HealthComponent-> GetCurrentHealth() >= 50.f)
     {
         FVector DeltaLocation = FVector::ZeroVector;
         // X = Value * DeltaTime * Speed
-        DeltaLocation.X = Value * DamagedSpeed * UGameplayStatics::GetWorldDeltaSeconds(this);
+        DeltaLocation.X = Value * Speed * UGameplayStatics::GetWorldDeltaSeconds(this);
         AddActorLocalOffset(DeltaLocation, true);
     }
     else
     {
         FVector DeltaLocation = FVector::ZeroVector;
         // X = Value * DeltaTime * Speed
-        DeltaLocation.X = Value * Speed * UGameplayStatics::GetWorldDeltaSeconds(this);
+        DeltaLocation.X = Value * DamagedSpeed * UGameplayStatics::GetWorldDeltaSeconds(this);
         AddActorLocalOffset(DeltaLocation, true);
     }
     

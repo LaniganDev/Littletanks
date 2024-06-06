@@ -27,6 +27,12 @@ void AProjectile::BeginPlay()
 	Super::BeginPlay();
 
 	ProjectileMesh->OnComponentHit.AddDynamic(this, &AProjectile::OnHit);
+	// Ensure that the attached FieldSystemActor follows the projectile
+	if (AttachedFieldSystemActor)
+	{
+		AttachedFieldSystemActor->SetActorLocation(GetActorLocation());
+	}
+	
 	
 }
 
@@ -52,9 +58,42 @@ void AProjectile::OnHit(UPrimitiveComponent* Hitcomp, AActor* OtherActor, UPrimi
             }
         }
     }
+	// Check if FieldSystemActorToSpawn is set
+	if (FieldSystemActorToSpawn)
+	{
+		// Spawn the Field System Actor
+		FVector SpawnLocation = GetActorLocation();
+		FRotator SpawnRotation = GetActorRotation();
+		FActorSpawnParameters SpawnParams;
+		SpawnParams.Owner = this;
+		SpawnParams.Instigator = GetInstigator();
 
-    // Destroy the projectile regardless of the type of actor it hit
-    Destroy();
+		AttachedFieldSystemActor = GetWorld()->SpawnActor<AFieldSystemActor>(FieldSystemActorToSpawn, SpawnLocation, SpawnRotation, SpawnParams);
+
+		// Attach the FieldSystemActor to the projectile's root component
+		if (AttachedFieldSystemActor)
+		{
+			AttachedFieldSystemActor->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
+		}
+	}
+	// Delay the destruction of the field system to allow it to complete its task
+	if (AttachedFieldSystemActor)
+	{
+		FTimerHandle TimerHandle;
+		float DestructionDelay = 3.0f; // Adjust the delay as needed
+		GetWorld()->GetTimerManager().SetTimer(TimerHandle, [this]()
+		{
+			if (AttachedFieldSystemActor && !AttachedFieldSystemActor->IsPendingKill())
+			{
+				AttachedFieldSystemActor->Destroy();
+			}
+		}, DestructionDelay, false);
+	}
+	// Destroy the projectile
+	Destroy();
 }
+
+
+
 
 
