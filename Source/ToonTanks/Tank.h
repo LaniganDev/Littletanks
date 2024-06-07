@@ -27,15 +27,21 @@ public:
 
 	APlayerController* GetTankPlayerController() const {return TankPlayerController;}
 
+
+
 protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 	virtual void Fire() override;
+	void UseHealth();
 
 public:
 	int32 GetCurrentAmmo() const { return Ammo; }
 	int32 GetMaxAmmo() const { return MaxAmmo; }
 	void SetCurrentAmmo(int32 NewAmmo) { Ammo = FMath::Clamp(NewAmmo, 0, MaxAmmo); }
+
+	bool bHasHealthPickup = false;
+	void SetPickupAmount(float Amount) { PickupAmount = Amount; }
 
 private:
 	UPROPERTY(VisibleAnywhere, Category = "Components")
@@ -56,6 +62,8 @@ private:
 	UPROPERTY(EditAnywhere)
 	int32 Ammo = 10;
 	int32 MaxAmmo = 10;
+
+	float PickupAmount = 0.f;
 
 
 	void Move(float Value);

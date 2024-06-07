@@ -9,17 +9,11 @@
   <component name="ChangeListManager">
     <list default="true" id="d13ae1fa-19c5-43b6-bb2f-3b6bae795438" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_Projectile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_Projectile.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/GameMode/BP_LittleTanksGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/GameMode/BP_LittleTanksGameMode.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTank.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTank.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTurret.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTurret.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Maps/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Main.umap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/BasePawn.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/BasePawn.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/BasePawn.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/BasePawn.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/LittleTanksGameMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/LittleTanksGameMode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pickups.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pickups.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Projectile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Projectile.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Projectile.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Projectile.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pickups.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pickups.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Tank.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Tank.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Tank.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Tank.h" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,6 +148,7 @@
       <workItem from="1717666486841" duration="19487000" />
       <workItem from="1717775689594" duration="608000" />
       <workItem from="1717776324525" duration="4066000" />
+      <workItem from="1717788688378" duration="1939000" />
     </task>
     <servers />
   </component>
@@ -182,6 +177,11 @@
           <url>file://$PROJECT_DIR$/Source/ToonTanks/Projectile.h</url>
           <line>4</line>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Source/ToonTanks/Pickups.h</url>
+          <line>4</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

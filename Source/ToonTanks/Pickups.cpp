@@ -60,11 +60,13 @@ void APickups::OnOverlapBegin(UPrimitiveComponent *OverlappedComp, AActor *Other
 			UHealthComponent* HealthComponent = OtherActor->FindComponentByClass<UHealthComponent>();
 			if(HealthComponent)
 			{
-				float CurrentHealth = HealthComponent->GetCurrentHealth();
-				float MaxHealth = HealthComponent->GetMaxHealth();
-				float NewHealth = FMath::Clamp(CurrentHealth+HealthPickup,0,MaxHealth);
-				HealthComponent->SetNewHealth(NewHealth);
-				Destroy();
+				if(!Tank->bHasHealthPickup)
+				{
+					Tank->bHasHealthPickup = true;
+					Tank->SetPickupAmount(HealthPickup);
+					Destroy();
+				}
+				return;
 			}
 		}
 
