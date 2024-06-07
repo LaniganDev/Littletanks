@@ -8,539 +8,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d13ae1fa-19c5-43b6-bb2f-3b6bae795438" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks.dir/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Blueprints/BP_GodRay.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Blueprints/BP_Torch_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/LandscapeLayers/Grass_LayerInfo.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/LandscapeLayers/Ground_LayerInfo.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/LandscapeLayers/Sand_LayerInfo.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MF/MF_0TopMask.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MF/MF_1BaseLayer.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MF/MF_2RedLayer.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MF/MF_3GreenLayer.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MF/MF_Landscape.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MF/MF_Mix.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Bricks.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Bush.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Bush_small.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Carpet.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_CastleRoof.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_FLowers.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Flag.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_GodRay_Inst_Animated.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Grass.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_HouseRoof.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_HouseWall.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_InteriorTrim.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_InteriorUnique.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Landscape.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Lantern.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_MetallTrim.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_PineLeaves.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Rock.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Sharpen_01.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Signs.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_StoneSolid.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_StoneTrim.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_StoneWall.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Stones.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Stylized_Clouds.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Textile.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_TreeBark.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_TreeBark2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_TreeLeaves.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Water_Lake.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Wheat.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Windows.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_WoodTrim.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_Woodtile.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MI/MI_cloud.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MM/MM_Assets.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MM/MM_GodRay.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MM/MM_Grass.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MM/MM_Landscape.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MM/MM_PineLeaves1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MM/MM_Sharpen.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MM/MM_Stylized_Clouds.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MM/MM_TreeLeaves.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Materials/MM/MM_Water.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Ark.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Barrel_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Barrel_Broken_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Bookcase_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Bookcase_1_001.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Books_Trim_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Books_Trim_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Books_Trim_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Books_Trim_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Books_Trim_5.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Books_U_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Books_U_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Books_U_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_BridgeCross_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_BridgeCross_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_BridgeLine_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Bridge_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Bridge_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Bridge_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Bridge_5.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Bridge_BigColumn_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Bridge_Big_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Bridge_Cube_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Bridge_Cube_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Bridge_SmallColumn_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Bridge_SmallColumn_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Bush_Small.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Bush_h_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Bush_h_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Carpet_circle_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Cart_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Cart_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleBuilding.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleEntrance.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleGates_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleGates_L.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleGates_R.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWallCorner_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWallCorner_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWallCorner_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWall_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWall_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWall_Arc.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWall_Column_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWall_Column_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWall_Gates.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWall_Long_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWall_Long_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWall_Long_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWall_Long_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWall_Short_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWall_Stairs_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWindow_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_CastleWindow_S.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Castle_Part.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Castle_Part_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Castle_Part_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Castle_Part_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Castle_Roof.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Castle_Roof_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Castle_WallPart.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Clouds_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Clouds_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Clouds_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Clouds_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Clouds_5.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Door_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Entrance_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Entrance_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Entrance_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Entrance_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Entrance_5.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Entrance_6.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Entrance_7.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Entrance_8.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Entrance_9.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Fence_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Fence_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Fence_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Fence_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Fence_5.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flag_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flag_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flag_Big_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flag_Interior_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flag_Tower_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Floor.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_FloorCorner_1_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_FloorCorner_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Floor_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flowers_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flowers_1_FoliageType.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flowers_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flowers_2_FoliageType.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flowers_Blue_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flowers_Blue_1_FoliageType.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flowers_Box_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flowers_Pink_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flowers_Pink_1_FoliageType.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flowers_Violet_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flowers_Violet_1_FoliageType.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flowers_Whites_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flowers_Whites_1_FoliageType.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flowers_Whites_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Flowers_Whites_2_FoliageType.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_FoodBox_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_GodRay_Plane.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Grass.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Grass_FoliageType.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_HouseWallCorner_1A.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_HouseWallCorner_1B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_HouseWallCorner_1C.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_HouseWallCorner_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_HouseWallCorner_Windows_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_HouseWallCorner_Windows_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_HouseWallCorner_Windows_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_HouseWallCorner_Windows_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_HouseWall_Window.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_HouseWall_clean_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_HouseWall_clean_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_HouseWall_clean_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_HouseWindow_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_HouseWindow_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_House_Extra.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Houseroof_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Houseroof_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Houseroof_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Housewall_1A.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Housewall_1B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Housewall_1C.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Housewall_1D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Housewall_2A.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Housewall_2B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Housewall_2C.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Housewall_2D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Housewall_3A.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Housewall_3B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Housewall_3C.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Housewall_3D.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_InteriorDoorway_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_InteriorProps_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_InteriorProps_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Interior_CentralPart_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Interior_Room.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Lantern_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Lantern_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Lantern_3_001.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Ledder_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_MarketSpot_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_MarketSpot_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_PLanet_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Papers_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Papers_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Papers_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Papers_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Papers_5.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_PineTree_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_PineTree_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_PineTree_Base_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_PineTree_FoliageType.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Pine_leaf_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Pine_leaf_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Planks_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Planks_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Planks_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Planks_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Planks_5.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Rockbig.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Rockbig_FoliageType.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Roof_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Roof_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Roof_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Roof_5.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Scroll_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Scroll_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_SignItem_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Sign_Castle_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Sign_Exit_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Sign_Forest_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Sign_MultiPointer_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Sign_Tavern_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Sign_Tavern_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Sign_Windmill_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Sign_Wizard_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Sign_apartment_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_SingPointer_Castle_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_SingPointer_Exit_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_SingPointer_Forest_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_SingPointer_Tavern.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_SingPointer_WIndmill_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneBlocks_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneBlocks_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneBlocks_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneBlocks_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneBlocks_5.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneBlocks_6.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneBlocks_7.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneBrick_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneBrick_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneColumn_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneColumn_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneColumn_Small_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneColumn_Small_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneGates.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneStairs_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneStairs_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneStairs_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneStairs_Border_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneStairs_Border_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneStairs_Column_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneStairs_Column_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneStairs_Column_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneStairs_Column_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneStairs_Wall_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_StoneStairs_Wall_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Stone_Floor_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Stones_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Stones_1_FoliageType.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Stones_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Stones_2_FoliageType.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Stones_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Stones_3_FoliageType.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Table.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Torch_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Torch_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_TowerRoof_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_TowerRoof_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_TowerRoof_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_TowerRoof_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_TowerRoof_Part_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Tower_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Tower_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Tower_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Tower_Interior_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Tower_Part_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Tower_Part_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Tower_exit.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Tree2_FoliageType.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_TreeBark_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_TreeBark_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_TreeBark_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_TreeBranch.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Treee1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Treee2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Treeleaves_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Treeleaves_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WMill_Roof.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Well.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Wheat_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Wheat_1_FoliageType.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Windmill_Blades.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodBrick.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodBrick_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodCircle.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodColumn.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodColumn_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodFence_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodFence_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodProps_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodProps_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodProps_3.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodProps_4.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodStairs.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodStairs_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodTower_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodTower_2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_WoodenBox_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Meshes/SM_Woodprops_5.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/Base_textures/T_Base_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/Base_textures/T_Base_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/Base_textures/T_Base_H.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/Base_textures/T_Base_H.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/Base_textures/T_Base_Mask.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/Base_textures/T_Base_Mask.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/Base_textures/T_Base_N.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/Base_textures/T_Base_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/Base_textures/T_Base_ORM.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/Base_textures/T_Base_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/Base_textures/T_Base_ORMA.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/Base_textures/T_Base_ORMA.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/Pine_leaf.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bark2_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bark2_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bark2_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bark2_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bark2_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bark2_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bark_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bark_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bark_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bark_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bark_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bark_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Brick_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Brick_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Brick_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Brick_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bricks_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bricks_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bush_O.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Bush_O.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Carpet_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Carpet_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Carpet_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Carpet_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Cloud_1.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Clouds_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Clouds_O.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Flag_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Flag_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Flag_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Flag_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Flag_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Flag_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Flowers_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Flowers_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Flowers_O.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Flowers_O.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_GodRay_Mask01.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Grass_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Grass_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Grass_Blur.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Grass_H.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Grass_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Grass_R.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Grass_R.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Grass_height.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Grass_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Ground_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Ground_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Ground_H.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Ground_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Ground_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Ground_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Ground_height.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Ground_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Grunge01_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Grunge02_B.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_HouseRoof_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_HouseRoof_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Houseroof_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Houseroof_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Houseroof_BC2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Houseroof_BC2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Houseroof_N.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Houseroof_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Houseroof_height.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Houseroof_height.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Housetrim_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Housetrim_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Housetrim_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Housewall2_BC2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Housewall2_BC2.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Housewall2_N.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Housewall2_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Housewall2_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Housewall2_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Housewall_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Housewall_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Housewall_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_InteriorTrim_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_InteriorTrim_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_InteriorTrim_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_InteriorTrim_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_InteriorTrim_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_InteriorTrim_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_InteriorUnique_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_InteriorUnique_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_InteriorUnique_E.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_InteriorUnique_E.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_InteriorUnique_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_InteriorUnique_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_InteriorUnique_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_InteriorUnique_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Lantern_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Lantern_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Lantern_E.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Lantern_E.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_MetalTrim_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_MetalTrim_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_MetalTrim_E.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_MetalTrim_E.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_MetalTrim_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_MetalTrim_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Metaltrim_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Metaltrim_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_MillTextile_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_MillTextile_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_MillTextile_N.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_MillTextile_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Moss2_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Moss2_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Moss_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Moss_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Moss_H.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Moss_N.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Moss_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Moss_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Moss_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Moss_height.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Noise_Clouds_Mask.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Pine_leaf_O.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Rockbig_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Rockbig_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Rockbig_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Rockbig_NORMALX_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Rockbig_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Rockbig_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Sand_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Sand_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Sand_H.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Sand_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Sand_height.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Sand_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Signs_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Signs_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Signs_N.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Signs_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Signs_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Signs_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_StoneTrim_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_StoneTrim_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_StoneTrim_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_StoneTrim_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Stones_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Stones_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Stones_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Stones_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Stones_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Stones_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Stonetrim_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Stonetrim_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_StonewallSolid_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_StonewallSolid_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_StonewallSolid_N.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_StonewallSolid_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_StonewallSolid_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_StonewallSolid_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Stonewall_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Stonewall_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Stonewall_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Stonewall_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_TilingNoise02.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Tree_leaves_O.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Water_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_WaveLarge_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Wave_Small_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Waves_Noise.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Wind_Noise.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_WoodTile_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_WoodTile_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_WoodTile_ORM.tga" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_WoodTile_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Woodtile_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Woodtile_normal.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Woodtrim_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Woodtrim_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_Woodtrim_ORM.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_housewindows_BC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_housewindows_BC.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_housewindows_R.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_housewindows_R.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_stonewall_N.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/T_stonewall_N.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Castle/Textures/Wind_Noise.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Maps/Chaos_Level.umap" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/Projectile_Field.uasset" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Content/SM_Ark_GeometryCollection.uasset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Content/Assets/Meshes/SM_Crate.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Assets/Meshes/SM_Crate.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_Projectile.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Actors/BP_Projectile.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/GameMode/BP_LittleTanksGameMode.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/GameMode/BP_LittleTanksGameMode.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTank.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTank.uasset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTurret.uasset" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Blueprints/Pawns/BP_PawnTurret.uasset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Content/Maps/Main.umap" beforeDir="false" afterPath="$PROJECT_DIR$/Content/Maps/Main.umap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/BasePawn.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/BasePawn.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/BasePawn.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/BasePawn.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/LittleTanksGameMode.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/LittleTanksGameMode.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pickups.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pickups.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Projectile.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Projectile.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Projectile.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Projectile.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Tank.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Tank.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/ToonTanks.Build.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/ToonTanks.Build.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ToonTanks.uproject" beforeDir="false" afterPath="$PROJECT_DIR$/ToonTanks.uproject" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -552,10 +31,12 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ToonTanks/LittleTanksGameMode.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ToonTanks/LittleTanksPlayerController.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ToonTanks/Projectile.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ToonTanks/Projectile.h" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ToonTanks/Tank.cpp" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Source/ToonTanks/Tank.h" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MetaFilesCheckinStateConfiguration" checkMetaFiles="true" />
   <component name="ProjectColorInfo">{
@@ -566,27 +47,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "Uproject.ToonTanks.executor": "Debug",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Uproject.ToonTanks.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;ChaosDestruction&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "rider.external.source.directories": [
-      "C:\\Users\\lanii\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache",
-      "C:\\Users\\lanii\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache",
-      "C:\\Users\\lanii\\AppData\\Local\\Symbols\\src"
+  &quot;keyToStringList&quot;: {
+    &quot;rider.external.source.directories&quot;: [
+      &quot;C:\\Users\\lanii\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\DecompilerCache&quot;,
+      &quot;C:\\Users\\lanii\\AppData\\Roaming\\JetBrains\\Rider2024.1\\resharper-host\\SourcesCache&quot;,
+      &quot;C:\\Users\\lanii\\AppData\\Local\\Symbols\\src&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="ToonTanks" type="Uproject" factoryName="rider.uproject">
       <configuration_1>
@@ -671,6 +152,8 @@
       <updated>1717665568870</updated>
       <workItem from="1717665572667" duration="874000" />
       <workItem from="1717666486841" duration="19487000" />
+      <workItem from="1717775689594" duration="608000" />
+      <workItem from="1717776324525" duration="4066000" />
     </task>
     <servers />
   </component>

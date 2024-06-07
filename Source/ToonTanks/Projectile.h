@@ -30,6 +30,11 @@ private:
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* Hitcomp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
+	UPROPERTY(EditAnywhere, Category="Comabat")
+	class UParticleSystem* HitParticles;
+
+	UPROPERTY(VisibleAnywhere, Category="Combat")
+	class UParticleSystemComponent* SmokeTrialParticles;
 
 
 public:	

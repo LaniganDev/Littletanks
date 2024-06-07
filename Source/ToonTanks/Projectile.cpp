@@ -4,7 +4,9 @@
 #include "Projectile.h"
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
-#include "Kismet/GameplayStatics.h" 
+#include "Kismet/GameplayStatics.h"
+
+#include "Particles/ParticleSystemComponent.h"
 #include "Mine.h"
 
 // Sets default values
@@ -19,6 +21,9 @@ AProjectile::AProjectile()
 	ProjectileMovementComponent = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement Component"));
 	ProjectileMovementComponent->MaxSpeed = 1300.f;
 	ProjectileMovementComponent->InitialSpeed = 1300.f;
+
+	SmokeTrialParticles = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("Smoke Trial Particles"));
+	SmokeTrialParticles->SetupAttachment(RootComponent);
 }
 
 // Called when the game starts or when spawned
@@ -88,6 +93,10 @@ void AProjectile::OnHit(UPrimitiveComponent* Hitcomp, AActor* OtherActor, UPrimi
 				AttachedFieldSystemActor->Destroy();
 			}
 		}, DestructionDelay, false);
+	}
+	if(HitParticles)
+	{
+		UGameplayStatics::SpawnEmitterAtLocation(this,HitParticles,GetActorLocation(),GetActorRotation());
 	}
 	// Destroy the projectile
 	Destroy();

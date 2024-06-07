@@ -41,6 +41,9 @@ private:
 	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Components", meta = (AllowPrivateAccess = "true"))
 	UStaticMeshComponent* TurretMesh;
 
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	 UParticleSystem* ExplosionParticles;
+
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite, Category = "Super Duper Variables", meta = (AllowPrivateAccess = "true"))
 	int32 VisibleAnywhereInt = 12;
