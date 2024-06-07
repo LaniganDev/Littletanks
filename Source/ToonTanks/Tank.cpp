@@ -110,9 +110,24 @@ void ATank::UseHealth()
         {
             float CurrentHealth = HealthComp->GetCurrentHealth();
             float MaxHealth = HealthComp->GetMaxHealth();
-            float NewHealth = FMath::Clamp(CurrentHealth + PickupAmount, 0.0f, MaxHealth);
-            HealthComp->SetNewHealth(NewHealth);
-            bHasHealthPickup = false;
+            
+            // Check if health is less than max health before attempting to increase it
+            if (CurrentHealth < MaxHealth)
+            {
+                float NewHealth = FMath::Clamp(CurrentHealth + PickupAmount, 0.0f, MaxHealth);
+                HealthComp->SetNewHealth(NewHealth);
+                currentHealthPickups--; // Decrease health pickups only if health is increased
+                if (currentHealthPickups <= 0)
+                {
+                    bHasHealthPickup = false;
+                }
+            }
+            else
+            {
+                UE_LOG(LogTemp, Warning, TEXT("Health is already at maximum!"));
+            }
+            
+            return;
         }
         else
         {

@@ -42,6 +42,12 @@ public:
 
 	bool bHasHealthPickup = false;
 	void SetPickupAmount(float Amount) { PickupAmount = Amount; }
+	int32 GetCurrentHealthPickups() const {return currentHealthPickups;}
+	int32 GetMaxHealthPickups() const {return maxHealthPickup;}
+	void SetCurrentHealthPickups(int32 NewHealthPickups) {currentHealthPickups = FMath::Min(NewHealthPickups, maxHealthPickup);
+	}
+	
+	
 
 private:
 	UPROPERTY(VisibleAnywhere, Category = "Components")
@@ -64,6 +70,10 @@ private:
 	int32 MaxAmmo = 10;
 
 	float PickupAmount = 0.f;
+	UPROPERTY(EditAnywhere)
+	int32 maxHealthPickup =2;
+	UPROPERTY(VisibleAnywhere)
+	int32 currentHealthPickups = 0;
 
 
 	void Move(float Value);

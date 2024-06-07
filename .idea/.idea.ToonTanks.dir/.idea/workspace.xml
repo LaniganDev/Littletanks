@@ -9,9 +9,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d13ae1fa-19c5-43b6-bb2f-3b6bae795438" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ToonTanks.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ToonTanks.dir/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Config/DefaultInput.ini" beforeDir="false" afterPath="$PROJECT_DIR$/Config/DefaultInput.ini" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pickups.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pickups.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Pickups.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Pickups.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Tank.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Tank.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Source/ToonTanks/Tank.h" beforeDir="false" afterPath="$PROJECT_DIR$/Source/ToonTanks/Tank.h" afterDir="false" />
     </list>
@@ -24,6 +22,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cpp" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ToonTanks/LittleTanksGameMode.cpp" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Source/ToonTanks/LittleTanksPlayerController.cpp" root0="FORCE_HIGHLIGHTING" />
@@ -148,7 +152,7 @@
       <workItem from="1717666486841" duration="19487000" />
       <workItem from="1717775689594" duration="608000" />
       <workItem from="1717776324525" duration="4066000" />
-      <workItem from="1717788688378" duration="1939000" />
+      <workItem from="1717788688378" duration="4985000" />
     </task>
     <servers />
   </component>
