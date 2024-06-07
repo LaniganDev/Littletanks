@@ -26,6 +26,7 @@ void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
     PlayerInputComponent->BindAxis(TEXT("Turn"), this, &ATank::Turn);
 
     PlayerInputComponent->BindAction(TEXT("Fire"), IE_Pressed, this, &ATank::Fire);
+    PlayerInputComponent->BindAction(TEXT("UseHealth"),IE_Pressed,this,&ATank::UseHealth);
 }
 
 void ATank::Tick(float DeltaTime)
@@ -100,3 +101,28 @@ void ATank::Fire()
         UE_LOG(LogTemp, Warning, TEXT("Out of Ammo!"));
     }
 }
+void ATank::UseHealth()
+{
+    if (bHasHealthPickup)
+    {
+        UHealthComponent* HealthComp = FindComponentByClass<UHealthComponent>();
+        if (HealthComp)
+        {
+            float CurrentHealth = HealthComp->GetCurrentHealth();
+            float MaxHealth = HealthComp->GetMaxHealth();
+            float NewHealth = FMath::Clamp(CurrentHealth + PickupAmount, 0.0f, MaxHealth);
+            HealthComp->SetNewHealth(NewHealth);
+            bHasHealthPickup = false;
+        }
+        else
+        {
+            UE_LOG(LogTemp, Warning, TEXT("Health component not found!"));
+        }
+    }
+    else
+    {
+        UE_LOG(LogTemp, Warning, TEXT("No health pickup available!"));
+    }
+}
+
+
