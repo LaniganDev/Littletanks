@@ -44,8 +44,9 @@ public:
 	void SetPickupAmount(float Amount) { PickupAmount = Amount; }
 	int32 GetCurrentHealthPickups() const {return currentHealthPickups;}
 	int32 GetMaxHealthPickups() const {return maxHealthPickup;}
-	void SetCurrentHealthPickups(int32 NewHealthPickups) {currentHealthPickups = FMath::Min(NewHealthPickups, maxHealthPickup);
-	}
+	void SetCurrentHealthPickups(int32 NewHealthPickups) {currentHealthPickups = FMath::Min(NewHealthPickups, maxHealthPickup);}
+
+	bool bAlive = true;
 	
 	
 
@@ -81,7 +82,7 @@ private:
 	void Move(float Value);
 	void Turn(float Value);
 
-	bool bHasEmergencyHealthApplied = false;
+	
 
 	APlayerController* TankPlayerController;
 };
