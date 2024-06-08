@@ -37,6 +37,12 @@ void AProjectile::BeginPlay()
 	{
 		AttachedFieldSystemActor->SetActorLocation(GetActorLocation());
 	}
+	if(LaunchSound)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this,LaunchSound,GetActorLocation());
+	}
+
+	
 	
 	
 }
@@ -53,7 +59,6 @@ void AProjectile::OnHit(UPrimitiveComponent* Hitcomp, AActor* OtherActor, UPrimi
 	 if (OtherActor && OtherActor != this && OtherComp)
     {
         {
-            // Apply damage to the other actor (if it's not the mine)
             auto MyOwner = GetOwner();
             if (MyOwner)
             {
@@ -97,6 +102,14 @@ void AProjectile::OnHit(UPrimitiveComponent* Hitcomp, AActor* OtherActor, UPrimi
 	if(HitParticles)
 	{
 		UGameplayStatics::SpawnEmitterAtLocation(this,HitParticles,GetActorLocation(),GetActorRotation());
+	}
+	if(HitSound)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this,HitSound,GetActorLocation());
+	}
+	if(HitCameraShakeClass)
+	{
+		GetWorld()->GetFirstPlayerController()->ClientStartCameraShake(HitCameraShakeClass);
 	}
 	// Destroy the projectile
 	Destroy();

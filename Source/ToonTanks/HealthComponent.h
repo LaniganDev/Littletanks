@@ -21,6 +21,7 @@ public:
 	float SetNewHealth(float NewHealth) {return Health = FMath::Clamp(NewHealth,0,MaxHealth);}
 
 
+
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -37,6 +38,7 @@ private:
 	float MaxHealth = 100.f;
 	UPROPERTY(VisibleAnywhere)
 	float Health = 0.f;
+
 
 	class ALittleTanksGameMode* LittleTanksGameMode;
 		

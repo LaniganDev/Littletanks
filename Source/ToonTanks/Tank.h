@@ -75,9 +75,13 @@ private:
 	UPROPERTY(VisibleAnywhere)
 	int32 currentHealthPickups = 0;
 
-
+	float DamageState1 = 50.f;
+	float DamageState2 = 25.f;
+	
 	void Move(float Value);
 	void Turn(float Value);
+
+	bool bHasEmergencyHealthApplied = false;
 
 	APlayerController* TankPlayerController;
 };
