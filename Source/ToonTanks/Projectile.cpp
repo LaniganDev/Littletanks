@@ -4,7 +4,9 @@
 #include "Projectile.h"
 #include "Components/StaticMeshComponent.h"
 #include "GameFramework/ProjectileMovementComponent.h"
-#include "Kismet/GameplayStatics.h" 
+#include "Kismet/GameplayStatics.h"
+
+#include "Particles/ParticleSystemComponent.h"
 #include "Mine.h"
 
 // Sets default values
@@ -19,6 +21,9 @@ AProjectile::AProjectile()
 	ProjectileMovementComponent = CreateDefaultSubobject<UProjectileMovementComponent>(TEXT("Projectile Movement Component"));
 	ProjectileMovementComponent->MaxSpeed = 1300.f;
 	ProjectileMovementComponent->InitialSpeed = 1300.f;
+
+	SmokeTrialParticles = CreateDefaultSubobject<UParticleSystemComponent>(TEXT("Smoke Trial Particles"));
+	SmokeTrialParticles->SetupAttachment(RootComponent);
 }
 
 // Called when the game starts or when spawned
@@ -27,6 +32,18 @@ void AProjectile::BeginPlay()
 	Super::BeginPlay();
 
 	ProjectileMesh->OnComponentHit.AddDynamic(this, &AProjectile::OnHit);
+	// Ensure that the attached FieldSystemActor follows the projectile
+	if (AttachedFieldSystemActor)
+	{
+		AttachedFieldSystemActor->SetActorLocation(GetActorLocation());
+	}
+	if(LaunchSound)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this,LaunchSound,GetActorLocation());
+	}
+
+	
+	
 	
 }
 
@@ -42,19 +59,63 @@ void AProjectile::OnHit(UPrimitiveComponent* Hitcomp, AActor* OtherActor, UPrimi
 	 if (OtherActor && OtherActor != this && OtherComp)
     {
         {
-            // Apply damage to the other actor (if it's not the mine)
-            auto MyOwner = GetOwner();
+            AActor* MyOwner = GetOwner();
             if (MyOwner)
             {
-                auto MyOwnerInstigator = MyOwner->GetInstigatorController();
-                auto DamageTypeClass = UDamageType::StaticClass();
+                AController* MyOwnerInstigator = MyOwner->GetInstigatorController();
+                UClass* DamageTypeClass = UDamageType::StaticClass();
                 UGameplayStatics::ApplyDamage(OtherActor, Damage, MyOwnerInstigator, this, DamageTypeClass);
             }
         }
     }
+	// Check if FieldSystemActorToSpawn is set
+	if (FieldSystemActorToSpawn)
+	{
+		// Spawn the Field System Actor
+		FVector SpawnLocation = GetActorLocation();
+		FRotator SpawnRotation = GetActorRotation();
+		FActorSpawnParameters SpawnParams;
+		SpawnParams.Owner = this;
+		SpawnParams.Instigator = GetInstigator();
 
-    // Destroy the projectile regardless of the type of actor it hit
-    Destroy();
+		AttachedFieldSystemActor = GetWorld()->SpawnActor<AFieldSystemActor>(FieldSystemActorToSpawn, SpawnLocation, SpawnRotation, SpawnParams);
+
+		// Attach the FieldSystemActor to the projectile's root component
+		if (AttachedFieldSystemActor)
+		{
+			AttachedFieldSystemActor->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
+		}
+	}
+	// Delay the destruction of the field system to allow it to complete its task
+	if (AttachedFieldSystemActor)
+	{
+		FTimerHandle TimerHandle;
+		float DestructionDelay = 3.0f; // Adjust the delay as needed
+		GetWorld()->GetTimerManager().SetTimer(TimerHandle, [this]()
+		{
+			if (AttachedFieldSystemActor && !AttachedFieldSystemActor->IsPendingKill())
+			{
+				AttachedFieldSystemActor->Destroy();
+			}
+		}, DestructionDelay, false);
+	}
+	if(HitParticles)
+	{
+		UGameplayStatics::SpawnEmitterAtLocation(this,HitParticles,GetActorLocation(),GetActorRotation());
+	}
+	if(HitSound)
+	{
+		UGameplayStatics::PlaySoundAtLocation(this,HitSound,GetActorLocation());
+	}
+	if(HitCameraShakeClass)
+	{
+		GetWorld()->GetFirstPlayerController()->ClientStartCameraShake(HitCameraShakeClass);
+	}
+	// Destroy the projectile
+	Destroy();
 }
+
+
+
 
 

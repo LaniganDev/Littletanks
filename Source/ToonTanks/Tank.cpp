@@ -26,6 +26,7 @@ void ATank::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
     PlayerInputComponent->BindAxis(TEXT("Turn"), this, &ATank::Turn);
 
     PlayerInputComponent->BindAction(TEXT("Fire"), IE_Pressed, this, &ATank::Fire);
+    PlayerInputComponent->BindAction(TEXT("UseHealth"),IE_Pressed,this,&ATank::UseHealth);
 }
 
 void ATank::Tick(float DeltaTime)
@@ -49,6 +50,7 @@ void ATank::HandleDestruction()
     Super::HandleDestruction();
     SetActorHiddenInGame(true);
     SetActorTickEnabled(false);
+    bAlive = false;
 }
 
 
@@ -62,21 +64,27 @@ void ATank::BeginPlay()
 void ATank::Move(float Value)
 {
     UHealthComponent* HealthComponent = FindComponentByClass<UHealthComponent>();
-    if(HealthComponent-> GetCurrentHealth() <= 50.f)
-    {
-        FVector DeltaLocation = FVector::ZeroVector;
-        // X = Value * DeltaTime * Speed
-        DeltaLocation.X = Value * DamagedSpeed * UGameplayStatics::GetWorldDeltaSeconds(this);
-        AddActorLocalOffset(DeltaLocation, true);
-    }
-    else
-    {
-        FVector DeltaLocation = FVector::ZeroVector;
-        // X = Value * DeltaTime * Speed
-        DeltaLocation.X = Value * Speed * UGameplayStatics::GetWorldDeltaSeconds(this);
-        AddActorLocalOffset(DeltaLocation, true);
-    }
+    float CurrentHealth = HealthComponent->GetCurrentHealth();
     
+    FVector DeltaLocation = FVector::ZeroVector;
+
+    if (CurrentHealth <= DamageState2) // Tank is critically damaged
+    {
+
+        return;
+    }
+    else if (CurrentHealth <= DamageState1) // Tank is damaged but not critically
+    {
+        // Move at reduced speed
+        DeltaLocation.X = Value * DamagedSpeed * UGameplayStatics::GetWorldDeltaSeconds(this);
+    }
+    else // Tank is not damaged
+    {
+        // Move at full speed
+        DeltaLocation.X = Value * Speed * UGameplayStatics::GetWorldDeltaSeconds(this);
+    }
+
+    AddActorLocalOffset(DeltaLocation, true);
 }
 
 void ATank::Turn(float Value)
@@ -87,6 +95,9 @@ void ATank::Turn(float Value)
     AddActorLocalRotation(DeltaRotation, true);
     GetController();
 }
+
+
+
 void ATank::Fire()
 {
     if (GetCurrentAmmo() > 0)
@@ -100,3 +111,43 @@ void ATank::Fire()
         UE_LOG(LogTemp, Warning, TEXT("Out of Ammo!"));
     }
 }
+void ATank::UseHealth()
+{
+    if (bHasHealthPickup)
+    {
+        UHealthComponent* HealthComp = FindComponentByClass<UHealthComponent>();
+        if (HealthComp)
+        {
+            float CurrentHealth = HealthComp->GetCurrentHealth();
+            float MaxHealth = HealthComp->GetMaxHealth();
+            
+            // Check if health is less than max health before attempting to increase it
+            if (CurrentHealth < MaxHealth)
+            {
+                float NewHealth = FMath::Clamp(CurrentHealth + PickupAmount, 0.0f, MaxHealth);
+                HealthComp->SetNewHealth(NewHealth);
+                currentHealthPickups--; // Decrease health pickups only if health is increased
+                if (currentHealthPickups <= 0)
+                {
+                    bHasHealthPickup = false;
+                }
+            }
+            else
+            {
+                UE_LOG(LogTemp, Warning, TEXT("Health is already at maximum!"));
+            }
+            
+            return;
+        }
+        else
+        {
+            UE_LOG(LogTemp, Warning, TEXT("Health component not found!"));
+        }
+    }
+    else
+    {
+        UE_LOG(LogTemp, Warning, TEXT("No health pickup available!"));
+    }
+}
+
+

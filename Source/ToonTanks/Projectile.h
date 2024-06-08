@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "Field/FieldSystemActor.h"
 #include "Projectile.generated.h"
 
 UCLASS()
@@ -29,12 +30,32 @@ private:
 	UFUNCTION()
 	void OnHit(UPrimitiveComponent* Hitcomp, AActor* OtherActor, UPrimitiveComponent* OtherComp, FVector NormalImpulse, const FHitResult& Hit);
 
+	UPROPERTY(EditAnywhere, Category="Comabat")
+	class UParticleSystem* HitParticles;
 
+	UPROPERTY(VisibleAnywhere, Category="Combat")
+	class UParticleSystemComponent* SmokeTrialParticles;
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	class USoundBase* LaunchSound;
+
+	UPROPERTY(EditAnywhere, Category = "Combat")
+	USoundBase* HitSound;
+
+	UPROPERTY(EditAnywhere,Category = "Combat")
+	TSubclassOf<class UCameraShakeBase> HitCameraShakeClass;
 
 public:	
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 		UPROPERTY(EditAnywhere)
 	float Damage = 50.f;
+
+	UPROPERTY(EditDefaultsOnly, Category = "Effects")
+	TSubclassOf<AFieldSystemActor> FieldSystemActorToSpawn;
+	
+
+	// Reference to the spawned FieldSystemActor
+	AFieldSystemActor* AttachedFieldSystemActor;
 
 };

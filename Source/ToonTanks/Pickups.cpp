@@ -43,24 +43,31 @@ void APickups::OnOverlapBegin(UPrimitiveComponent *OverlappedComp, AActor *Other
 	ATank* Tank = Cast<ATank>(OtherActor);
 	if(Tank)
 	{
+		int32 MaxAmmo = Tank->GetMaxAmmo();
+		int32 CurrentAmmo = Tank->GetCurrentAmmo();
 		if(ActorHasTag("AmmoPickup"))
 		{
-			int32 CurrentAmmo = Tank->GetCurrentAmmo();
-			int32 MaxAmmo = Tank->GetMaxAmmo();
-			int32 NewAmmo = FMath::Clamp(CurrentAmmo+AmmoPickup,0,MaxAmmo);
-			Tank->SetCurrentAmmo(NewAmmo);
-			Destroy();
+			if(CurrentAmmo < MaxAmmo)
+			{
+				int32 NewAmmo = FMath::Clamp(CurrentAmmo+AmmoPickup,0,MaxAmmo);
+				Tank->SetCurrentAmmo(NewAmmo);
+				Destroy();
+			}
+
 		}
 		if(ActorHasTag("HealthPickup")) 
 		{
 			UHealthComponent* HealthComponent = OtherActor->FindComponentByClass<UHealthComponent>();
 			if(HealthComponent)
 			{
-				float CurrentHealth = HealthComponent->GetCurrentHealth();
-				float MaxHealth = HealthComponent->GetMaxHealth();
-				float NewHealth = FMath::Clamp(CurrentHealth+HealthPickup,0,MaxHealth);
-				HealthComponent->SetNewHealth(NewHealth);
-				Destroy();
+				if( Tank->GetCurrentHealthPickups() < Tank->GetMaxHealthPickups())
+				{
+					Tank->bHasHealthPickup = true;
+					Tank->SetPickupAmount(HealthPickup);
+					Tank->SetCurrentHealthPickups(Tank->GetCurrentHealthPickups() + 1);
+					Destroy();
+				}
+				return;
 			}
 		}
 

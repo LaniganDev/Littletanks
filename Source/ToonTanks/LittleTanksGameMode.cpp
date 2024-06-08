@@ -32,7 +32,6 @@ void ALittleTanksGameMode::ActorDied(AActor* DeadActor)
     else if (AMine* DestroyedMine = Cast<AMine>(DeadActor))
     {
         DestroyedMine->HandleDestruction();
-        GameOver(false);
     }
     
 }

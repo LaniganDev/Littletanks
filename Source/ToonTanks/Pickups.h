@@ -15,6 +15,7 @@ class TOONTANKS_API APickups : public AActor
 public:	
 	// Sets default values for this actor's properties
 	APickups();
+	
 
 protected:
 	// Called when the game starts or when spawned
